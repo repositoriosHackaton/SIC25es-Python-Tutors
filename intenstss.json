@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola", "¡Hola!", "Buenos días", "Buenas tardes", "Buenas noches",
+        "¿Qué tal estás?", "¿Cómo andas?", "Hey", "Ey, ¿todo bien?",
+        "Qué onda", "Saludos", "¡Qué gusto saludarte!", "¿Qué hay de nuevo?"
+      ],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte hoy?",
+        "¡Bienvenido! ¿Buscas un celular en especial?",
+        "¡Qué gusto verte! Dime, ¿qué tipo de teléfono buscas?",
+        "Hola, ¿te puedo recomendar algún modelo en particular?",
+        "¡Ey! ¿Estás buscando el mejor celular para ti?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós", "Hasta luego", "Nos vemos", "Hasta pronto", "Chao",
+        "Me retiro", "Bye", "Hasta la próxima", "Cuídate mucho",
+        "Nos vemos luego", "Gracias por la ayuda, me voy", "Hablamos luego"
+      ],
+      "responses": [
+        "¡Hasta luego! Si necesitas más ayuda, aquí estaré.",
+        "Adiós, ¡espero haberte ayudado!",
+        "Nos vemos pronto, ¡que tengas un buen día!",
+        "¡Cuídate! Estoy listo cuando necesites otra recomendación."
+      ]
+    },
+    {
+      "tag": "agradecimientos",
+      "patterns": [
+        "gracias", "muchas gracias", "mil gracias", "muy amable",
+        "se lo agradezco", "fue de ayuda", "gracias por la ayuda",
+        "muy agradecido", "gracias por su tiempo", "gracias por responder"
+      ],
+      "responses": [
+        "¡De nada! Me alegra haberte ayudado.",
+        "Para eso estoy, cuando quieras.",
+        "Gracias a ti por preguntar.",
+        "¡Siempre a la orden!",
+        "Un placer ayudarte."
+      ]
+    },
+    {
+      "tag": "celulares_para_juegos",
+      "patterns": [
+        "jugar", "gaming", "potente para juegos", "rendimiento en juegos",
+        "mejor celular gamer", "procesador para juegos", "GPU potente",
+        "no se caliente jugando", "frames por segundo altos","buenos fps",
+        "me gusta jugar en el celular", "buen celular para juegos móviles"
+      ],
+      "responses": [
+        "Si buscas un celular para juegos exigentes, los ASUS ROG Phone o los iPhone 16 Pro Max son top.",
+        "¿Te gustan juegos como PUBG o COD? Te sugiero uno con Snapdragon 8 Gen 2 o A17 Pro.",
+        "Mira los modelos con pantallas de 120Hz o más, ideales para gaming fluido.",
+        "Algunos celulares traen triggers físicos para mejorar la jugabilidad. ¿Te muestro algunos?",
+        "¿Qué presupuesto manejas para un celular gamer? Puedo darte opciones de gama alta o media."
+      ]
+    },
+    {
+      "tag": "cámara_y_fotografía",
+      "patterns": [
+        "buena cámara", "tomar fotos", "fotos profesionales", "zoom óptico",
+        "modo noche", "selfie perfecta", "grabación en 4K", "cámara frontal buena",
+        "estabilizador óptico", "cámara para TikTok"
+      ],
+      "responses": [
+        "Si te encanta la fotografía, los Google Pixel 8 Pro y los iPhone 16 Pro Max son geniales.",
+        "¿Quieres buenos selfies? Te recomiendo el iPhone 16 o el Pixel 7a con excelentes cámaras frontales.",
+        "Para video, muchos modelos ya graban en 4K e incluso 8K. ¿Qué te gustaría grabar?",
+        "¿Necesitas zoom óptico? Los Galaxy S24 Ultra tienen hasta 10x sin perder calidad.",
+        "Para fotos nocturnas, busca sensores de gran apertura y modo noche avanzado. ¿Quieres ejemplos?"
+      ]
+    },
+    {
+      "tag": "resistencia_y_durabilidad",
+      "patterns": [
+        "celular resistente", "a prueba de agua", "IP68", "Gorilla Glass",
+        "soporte golpes", "condiciones extremas", "rugged phone", "reforzado", "antipolvo"
+      ],
+      "responses": [
+        "Si buscas resistencia, los iPhone 16 Pro y Galaxy S24 Ultra ofrecen IP68 y cristal reforzado.",
+        "Los modelos CAT o Samsung XCover son ideales para ambientes extremos.",
+        "¿Buscas protección militar? Hay opciones que resisten golpes, agua y polvo.",
+        "Celulares con Gorilla Glass Victus son muy resistentes a caídas.",
+        "Cuéntame qué tipo de resistencia necesitas, y te sugiero el modelo ideal."
+      ]
+    },
+    {
+      "tag": "trabajo_y_productividad",
+      "patterns": [
+        "para trabajar", "estudiar", "multitarea", "videollamadas",
+        "mucha batería", "almacenamiento grande", "soporte para Office",
+        "uso profesional", "S Pen", "productividad móvil"
+      ],
+      "responses": [
+        "Si trabajas mucho con el móvil, los Samsung Galaxy S Ultra con S Pen son perfectos para tomar notas.",
+        "Para multitarea, te sugiero celulares que soporten Samsung Dex o Apple Continuity.",
+        "¿Videollamadas largas? Busca batería de más de 4500 mAh y buena cámara frontal.",
+        "Si usas mucho Office, asegúrate de tener 8GB de RAM mínimo y buena conectividad.",
+        "¿Buscas productividad y batería duradera? Tengo opciones que cumplen ambas cosas."
+      ]
+    },
+    {
+      "tag": "pantalla_y_calidad",
+      "patterns": [
+        "pantalla grande", "AMOLED", "120Hz", "HDR10", "Dolby Vision",
+        "ver películas", "fluidez al usar", "OLED", "brillo alto"
+      ],
+      "responses": [
+        "¿Buscas una pantalla vibrante? Las Super Retina XDR de Apple y las AMOLED de Samsung son ideales.",
+        "Si te gusta ver series o películas, busca un celular con HDR10+ o Dolby Vision.",
+        "Para juegos o scroll fluido, elige pantallas de 120Hz o incluso 144Hz.",
+        "Si necesitas buena visibilidad al sol, opta por brillo superior a 1000 nits.",
+        "Pantallas de más de 6.7 pulgadas te dan mejor experiencia para contenido multimedia."
+      ]
+    },
+    {
+      "tag": "celulares_por_marca",
+      "patterns": [
+        "Apple", "Samsung", "Google Pixel", "Huawei", "Honor", "Xiaomi", "Realme",
+        "Vivo", "Sony", "Motorola", "OnePlus", "Infinix", "Tecno"
+      ],
+      "responses": [
+        "¿Buscas algún modelo en particular?",
+        "Muy buena opción. ¿Qué rango de precio te interesa?",
+        "Puedo mostrarte los mejores modelos según tus necesidades.",
+        "¿Quieres ver los precios?",
+        "Existen opciones para fotografía, gaming y trabajo. ¿Qué priorizas?"
+      ]
+    },
+    {
+      "tag": "celulares_nuevos_y_antiguos",
+      "patterns": [
+        "nuevo celular 2024", "últimos modelos de celulares", "recién lanzados",
+        "celulares nuevos", "novedades smartphones", "última generación", "este año"
+      ],
+      "responses": [
+        "Estos son los modelos más recientes, como el iPhone 16 Pro Max o el Pixel 9 Pro.",
+        "¿Quieres lo último en tecnología móvil? Te muestro los lanzamientos de 2024.",
+        "Estos celulares incluyen cámaras de 200MP y pantallas de 144Hz. ¿Te muestro ejemplos?",
+        "¿Qué rango de precios te interesa para lo último en smartphones?",
+        "Te enseño los modelos de última generación. ¿iOS o Android?"
+      ]
+    },
+    {
+      "tag": "software_y_actualizaciones",
+      "patterns": [
+        "actualizaciones Android", "soporte de software", "parches de seguridad",
+        "Android 15", "actualizaciones rápidas", "teléfono seguro"
+      ],
+      "responses": [
+        "Si buscas actualizaciones garantizadas, los Google Pixel y Samsung Galaxy son de lo mejor.",
+        "Apple ofrece soporte de software durante más años que la mayoría de marcas Android.",
+        "Los modelos Android One o Pixel reciben parches de seguridad mensuales.",
+        "¿Quieres un teléfono que ya venga con Android 15? Tengo varias opciones.",
+        "Déjame enseñarte celulares con mejor soporte a largo plazo."
+      ]
+    }
+  ],
+  "evaluacionesChat": [
+    {
+      "tag": "preguntas_flujo",
+      "responses": [
+        { "pregunta": "¿Te interesa que tenga una batería de larga duración? (Sí/No)" },
+        { "pregunta": "¿Cuánto es tu presupuesto máximo? (Ingresa un número)" },
+        { "pregunta": "¿Qué marca prefieres? (Escribe una marca específica)" },
+        { "pregunta": "¿Quieres una buena cámara? (Sí/No)" },
+        { "pregunta": "¿Necesitas un celular con buen rendimiento? (Sí/No)" }
+      ]
+    },
+    {
+      "tag": "respuestas_positivas",
+      "responses": [
+        "sí", "si", "claro", "por supuesto", "afirmativo", "desde luego",
+        "efectivamente", "correcto", "exacto", "seguro", "vale", "obviamente",
+        "sin duda", "totalmente", "absolutamente", "evidentemente", "cómo no",
+        "así es", "de acuerdo", "va", "sip", "yep", "yeah"
+      ]
+    },
+    {
+      "tag": "respuestas_negativas",
+      "responses": [
+        "no", "nunca", "negativo", "jamás", "nada", "para nada", "nop",
+        "nel", "nunca jamás", "ni hablar", "de ninguna manera", "en absoluto",
+        "ni pensarlo", "ni loco", "nanay", "qué va", "ni en broma",
+        "ni de chiste", "bajo ninguna circunstancia", "de eso nada"
+      ]
+    },
+    {
+      "tag": "variantes_celulares",
+      "responses": [
+        "teléfono celular", "telefono celular", "teléfono móvil", "telefono móvil", "teléfono", 
+        "telefono", "móvil", "movil", "celular", "cel", "celulófono", "smartphone", "smart phone", 
+        "dispositivo móvil", "dispositivo portatil", "móvil inteligente", "movil inteligente", 
+        "terminal móvil", "terminal telefonico", "handy", "celuloco"
+      ]
+    },
+    {
+      "tag": "variantes_recomendar",
+      "variantes": [
+        "recomendar", "recomendando", "recomendado", "recomiendas", "recomienda", "recomendamos",
+        "sugerir", "aconsejar", "proponer", "orientar", "indicar", "dirigir", "postular",
+        "invitar", "animar", "instar", "alentar", "persuadir", "advertir", "encomendar"
+      ]
+    }
+  ]
+}
