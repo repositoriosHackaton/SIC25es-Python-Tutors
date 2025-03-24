@@ -1,0 +1,430 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "¿Cómo estás?",
+                "Buenos días",
+                "¡Hola!",
+                "¡Qué tal!",
+                "Buenas tardes",
+                "Buenas noches",
+                "Hey",
+                "¿Qué onda?",
+                "Saludos"
+            ],
+            "responses": [
+                "¡Hola! ¿Cómo puedo ayudarte?",
+                "¡Hola! ¿En qué puedo ayudarte hoy?",
+                "¡Saludos! ¿Qué necesitas?",
+                "¡Hey! ¿Cómo estás?",
+                "¡Qué gusto verte!"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adiós",
+                "Hasta luego",
+                "Nos vemos",
+                "Hasta pronto",
+                "Chao",
+                "Me tengo que ir",
+                "Nos vemos después",
+                "Bye",
+                "Hasta la vista",
+                "Cuídate"
+            ],
+            "responses": [
+                "¡Hasta luego! Que tengas un buen día.",
+                "¡Adiós! ¡Vuelve pronto!",
+                "¡Nos vemos! No dudes en preguntar cuando lo necesites.",
+                "¡Cuídate!",
+                "Bye, hasta la próxima."
+            ]
+        },
+        {
+            "tag": "agradecimientos",
+            "patterns": [
+                "gracias",
+                "muchas gracias",
+                "mil gracias",
+                "muy amable",
+                "se lo agradezco",
+                "fue de ayuda",
+                "gracias por la ayuda",
+                "muy agradecido",
+                "gracias por su tiempo",
+                "gracias por responder"
+            ],
+            "responses": [
+                "De nada, estoy aquí para ayudar.",
+                "Feliz por ayudar.",
+                "Gracias a ti por preguntar.",
+                "¡Siempre a la orden!",
+                "Fue un placer ayudarte."
+            ]
+        },
+        {
+            "tag": "celulares_para_juegos",
+            "patterns": [
+                "jugar",
+                "gaming",
+                "potente para juegos",
+                "rendimiento en juegos",
+                "jugar",
+                "Teléfonos gaming",
+                "Me gustan los juegos",
+                "para jugar",
+                "buena GPU",
+                "mejor celular gamer"
+            ],
+            "responses": [
+                "Para gaming, te recomiendo un celular con un buen procesador y al menos 8GB de RAM.",
+                "Los teléfonos con Snapdragon 8 Gen 2 y buena tasa de refresco son ideales para juegos.",
+                "Busca un celular con una GPU potente y refrigeración eficiente.",
+                "Algunos celulares gaming incluyen botones físicos y triggers.",
+                "¿Tienes un presupuesto en mente? Puedo recomendarte algo según tu rango de precio."
+            ]
+        },
+        {
+            "tag": "cámara_y_fotografía",
+            "patterns": [
+                "buena cámara",
+                "tomar fotos",
+                "cámara de alta calidad",
+                "mejor cámara",
+                "fotografía",
+                "fotos profesionales",
+                "buen zoom",
+                "cámara nocturna",
+                "estabilización óptica",
+                "cámara frontal"
+            ],
+            "responses": [
+                "Para fotografía, te sugiero un celular con al menos 50MP en la cámara principal y buen procesamiento de imagen.",
+                "Los celulares de gama alta suelen tener mejores cámaras, pero hay opciones más accesibles con buenas prestaciones.",
+                "Busca un celular con estabilización óptica para mejores fotos en movimiento.",
+                "Algunos modelos cuentan con teleobjetivo para capturas a larga distancia.",
+                "¿Prefieres un celular con cámara profesional o algo más equilibrado?"
+            ]
+        },
+        {
+            "tag": "resistencia_y_durabilidad",
+            "patterns": [
+                "resistente",
+                "no se rompa fácil",
+                "aguante golpes",
+                "certificación IP68",
+                "resistente al agua",
+                "a prueba de polvo",
+                "todoterreno",
+                "reforzado",
+                "Gorilla Glass"
+            ],
+            "responses": [
+                "Si buscas un celular resistente, te recomiendo modelos con certificación IP68 o con protección militar.",
+                "Algunos celulares como los CAT o Samsung XCover están diseñados para resistir golpes y polvo.",
+                "Los celulares con Gorilla Glass suelen tener pantallas más resistentes.",
+                "Si trabajas en ambientes exigentes, te sugiero un smartphone todoterreno."
+            ]
+        },
+        {
+            "tag": "trabajo_y_productividad",
+            "patterns": [
+                "trabajo",
+                "negocios",
+                "multitarea",
+                "S Pen",
+                "almacenamiento",
+                "ápido",
+                "videollamadas",
+                "productividad",
+                "Microsoft Office",
+                "batería"
+            ],
+            "responses": [
+                "Si buscas un celular para trabajo, te sugiero modelos con buena batería y almacenamiento amplio.",
+                "Algunos modelos premium incluyen funciones específicas para productividad como Samsung Dex o Apple Continuity.",
+                "Si necesitas tomar notas, te recomiendo un celular con lápiz óptico como la serie Galaxy Note o S Ultra.",
+                "¿Buscas algo potente o más enfocado en batería y conectividad?"
+            ]
+        },
+        {
+            "tag": "software_y_actualizaciones",
+            "patterns": [
+                "soporte de actualizaciones",
+                "soporte de software",
+                "seguridad actualizada",
+                "Android 15",
+                "Actualizacion"
+            ],
+            "responses": [
+                "Si buscas un celular con actualizaciones garantizadas, los Google Pixel y Samsung tienen buen soporte.",
+                "Apple ofrece soporte de software por más años que la mayoría de marcas de Android.",
+                "Si te preocupa la seguridad, busca celulares con parches de seguridad mensuales.",
+                "Los celulares con Android puro suelen recibir actualizaciones más rápido que los personalizados."
+            ]
+        },
+        {
+            "tag": "celulares_por_marca",
+            "patterns": [
+                "apple",
+                "google",
+                "honor",
+                "huawei",
+                "infinix",
+                "iqoo",
+                "lenovo",
+                "motorola",
+                "nokia",
+                "oneplus",
+                "poco",
+                "realme",
+                "samsung",
+                "sony",
+                "tecno",
+                "vivo",
+                "xiaomi"
+            ],
+            "responses": [
+                "Claro, aquí tienes modelos de la marca que buscas.",
+                "Estos son algunos de los mejores celulares de esa marca.",
+                "Déjame filtrar los modelos disponibles de esa marca.",
+                "Los celulares de esta marca tienen diferentes opciones, ¿buscas algo en específico?",
+                "Puedo mostrarte los últimos lanzamientos o modelos populares de esa marca."
+            ]
+        },
+        {
+            "tag": "pantalla_y_calidad",
+            "patterns": [
+                "pantalla",
+                "AMOLED",
+                "Hercios",
+                "Hz",
+                "pulgadas",
+                "OLED",
+                "HDR10",
+                "resolución"
+            ],
+            "responses": [
+                "Si buscas una pantalla grande, te recomendaría un modelo con más de 6.5 pulgadas.",
+                "Las pantallas AMOLED ofrecen mejor contraste y colores más vivos.",
+                "Los celulares con 120Hz ofrecen una experiencia más fluida al navegar y jugar.",
+                "Si quieres la mejor calidad de pantalla, busca modelos con HDR10 o Dolby Vision.",
+                "¿Te interesa más la calidad de imagen o el tamaño de la pantalla?"
+            ]
+        },
+        {
+            "tag": "celulares_nuevos_y_antiguos",
+            "patterns": [
+                "nuevo",
+                "este año",
+                "reciente",
+                "última generación"
+            ],
+            "responses": [
+                "Aquí tienes una lista de los celulares más recientes.",
+                "Estos son algunos modelos lanzados en los últimos meses.",
+                "Si buscas lo último en tecnología, estos celulares pueden interesarte.",
+                "¿Te gustaría un modelo de gama alta o prefieres algo más asequible?",
+                "Déjame buscar los modelos más recientes en nuestra base de datos."
+            ]
+        },
+        {
+            "tag": "general",
+            "patterns": [
+                "hola",
+                "necesito que me ayudes a encontrar un telefono perfecto para mi",
+                "recomendar"
+            ],
+            "responses": [
+                " Holidays are my favorite time of the year.  Do you like holidays?",
+                " Necesitos is a Spanish word that means \"little armoured one\"",
+                " Do you like to read? I am a big fan of \"Romeo and Juliet\" by Jane Austen."
+            ]
+        }
+    ],
+    "evaluacionesChat": [
+        {
+            "tag": "preguntas_flujo",
+            "responses": [
+                {
+                    "pregunta": "¿Te interesa que tenga una batería de larga duración? (Sí/No)"
+                },
+                {
+                    "pregunta": "¿Cuánto es tu presupuesto máximo? (Ingresa un número)"
+                },
+                {
+                    "pregunta": "¿Qué marca prefieres? (Escribe una marca específica)"
+                },
+                {
+                    "pregunta": "¿Quieres una buena cámara? (Sí/No)"
+                },
+                {
+                    "pregunta": "¿Necesitas un celular con buen rendimiento? (Sí/No)"
+                }
+            ]
+        },
+        {
+            "tag": "respuestas_positivas",
+            "responses": [
+                "sí",
+                "si",
+                "claro",
+                "por supuesto",
+                "afirmativo",
+                "desde luego",
+                "efectivamente",
+                "correcto",
+                "exacto",
+                "seguro",
+                "vale",
+                "obviamente",
+                "obviamente",
+                "sin duda",
+                "totalmente",
+                "absolutamente",
+                "evidentemente",
+                "cómo no",
+                "así es",
+                "de acuerdo",
+                "va",
+                "sip",
+                "yep",
+                "yeah",
+                "por supuesto",
+                "por supuesto que sí"
+            ]
+        },
+        {
+            "tag": "respuestas_negativas",
+            "responses": [
+                "no",
+                "nunca",
+                "negativo",
+                "jamás",
+                "nada",
+                "para nada",
+                "nop",
+                "nel",
+                "nunca jamás",
+                "ni hablar",
+                "de ninguna manera",
+                "en absoluto",
+                "nunca",
+                "ni pensarlo",
+                "ni loco",
+                "nanay",
+                "qué va",
+                "ni en broma",
+                "ni de chiste",
+                "bajo ninguna circunstancia",
+                "de eso nada",
+                "qué dices",
+                "qué disparate",
+                "qué tontería",
+                "qué absurdo",
+                "qué locura",
+                "qué barbaridad",
+                "qué desatino",
+                "qué disparate",
+                "qué insensatez",
+                "qué necedad",
+                "qué sinrazón",
+                "qué estupidez",
+                "qué ridiculez",
+                "qué sandez",
+                "qué tontería"
+            ]
+        },
+        {
+            
+            "tag": "variantes_celulares",
+            "responses":[
+                "teléfono celular", 
+                "telefono celular", 
+                "teléfono móvil", 
+                "telefono móvil", 
+                "teléfono", 
+                "telefono", 
+                "móvil", 
+                "movil", 
+                "celular", 
+                "cel", 
+                "celulófono",
+                "smartphone", 
+                "smart phone", 
+                "dispositivo móvil", 
+                "dispositivo portatil",
+                "móvil inteligente", 
+                "movil inteligente", 
+                "terminal móvil", 
+                "terminal telefonico", 
+                "handy", 
+                "celuloco"
+            ]
+            
+        },
+        {
+            "tag": "variantes_recomendar",
+            "variantes": [
+              "recomendar", "recomendando", "recomendado",
+              "recomiendas", "recomienda", "recomendamos", "recomendáis", "recomiendan",
+              "recomendaste", "recomendó", "recomendamos", "recomendasteis", "recomendaron",
+              "recomendabas", "recomendaba", "recomendábamos", "recomendabais", "recomendaban",
+              "recomendarás", "recomendará", "recomendaremos", "recomendaréis", "recomendarán",
+              "recomendarías", "recomendaría", "recomendaríamos", "recomendaríais", "recomendarían",
+              "recomiendes", "recomiende", "recomendemos", "recomendéis", "recomienden",
+              "recomendaras", "recomendara", "recomendáramos", "recomendarais", "recomendaran",
+              "recomendases", "recomendase", "recomendásemos", "recomendaseis", "recomendasen",
+              "recomendares", "recomendare", "recomendáremos", "recomendareis", "recomendaren",
+              "recomienda", "recomiende", "recomendemos", "recomendad", "recomienden",
+              "sugerir", "sugieres", "sugiere", "sugerimos", "sugerís", "sugieren",
+              "aconsejar", "aconsejas", "aconseja", "aconsejamos", "aconsejáis", "aconsejan",
+              "proponer", "propones", "propone", "proponemos", "proponéis", "proponen",
+              "advertir", "adviertes", "advierte", "advertimos", "advertís", "advierten",
+              "encomendar", "encomiendas", "encomienda", "encomendamos", "encomendáis", "encomiendan",
+              "instar", "instas", "insta", "instamos", "instáis", "instan",
+              "orientar", "orientas", "orienta", "orientamos", "orientáis", "orientan",
+              "alentar", "alientas", "alienta", "alentamos", "alentáis", "alientan",
+              "persuadir", "persuades", "persuade", "persuadimos", "persuadís", "persuaden",
+              "indicar", "indicas", "indica", "indicamos", "indicáis", "indican",
+              "dirigir", "diriges", "dirige", "dirigimos", "dirigís", "dirigen",
+              "postular", "postulas", "postula", "postulamos", "postuláis", "postulan",
+              "suplicar", "suplicas", "suplica", "suplicamos", "suplicáis", "suplican",
+              "exhortar", "exhortas", "exhorta", "exhortamos", "exhortáis", "exhortan",
+              "clamar", "clamas", "clama", "clamamos", "clamáis", "claman",
+              "impulsar", "impulsas", "impulsa", "impulsamos", "impulsáis", "impulsan",
+              "ordenar", "ordenas", "ordena", "ordenamos", "ordenáis", "ordenan",
+              "rogar", "ruegas", "ruega", "rogamos", "rogáis", "ruegan",
+              "instigar", "instigas", "instiga", "instigamos", "instigáis", "instigan",
+              "invitar", "invitas", "invita", "invitamos", "invitáis", "invitan",
+              "animar", "animas", "anima", "animamos", "animáis", "animan"
+            ]
+        },
+        {
+            "tag": "celulares_por_marca",
+            "patterns": [
+                "Apple",
+                "Google",
+                "Honor",
+                "Huawei",
+                "Infinix",
+                "Iqoo",
+                "Lenovo",
+                "Motorola",
+                "Nokia",
+                "Oneplus",
+                "Poco",
+                "Realme",
+                "Samsung",
+                "Sony",
+                "Tecno",
+                "Vivo",
+                "Xiaomi"
+            ]
+        }          
+    ]
+}
