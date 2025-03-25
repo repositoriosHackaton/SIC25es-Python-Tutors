@@ -1,13 +1,13 @@
 
 body {
-  font-family: 'Courier New', Courier;
+  font-family: 'Poppins black';
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
-  background: linear-gradient(#d8fcff, #0099ff);
+  background: #fff;
   padding-bottom: 50px; /* Agregado para asegurar que no se superpongan los elementos */
   cursor: url("cursor.png"), auto;
 }
@@ -28,7 +28,7 @@ ul.topnav {
   border-style: solid;
 
   background: linear-gradient(180deg, 
-  rgba(135, 206, 235, 0.8), 
+  #3dc5f8, 
   rgba(0, 180, 255, 0.6));
 }
 
@@ -42,7 +42,7 @@ ul.topnav li a {
   text-align: center;
   padding: 24px 30px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 15px;
 }
 
@@ -62,14 +62,15 @@ main {
 
 
 .Cabecera {
+  font-size: 20px;
   border-radius: 8px;
   color: black;
   text-align: center;
   padding: 20px;
   margin: 20px 0;
-  background: linear-gradient(90deg, rgba(0, 180, 255, 0.2), rgba(0, 100, 255, 0.4));
-  border-bottom: 1px solid #00FFFF;
-  box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+  background: linear-gradient(180deg, #3d68f8, #003cff);
+  border-bottom: 1px solid #839df5;
+  box-shadow: 0 0 20px #213a8b;
 }
 
 .botsito{
@@ -82,29 +83,33 @@ main {
 }
 
 .Objetivos {
+  font-size: 20px;
   border-radius: 8px;
   color: black;
   text-align: center;
   padding: 20px;
   margin: 20px 0;
-  background: linear-gradient(90deg, 
-  #00BFFF,  
-  #83e9e9);
-  border-bottom: 1px solid #00FFFF;
-  box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
-
+  background: linear-gradient(180deg,#703df8, #470aec);
+  border-bottom: 1px solid #987aeb;
+  box-shadow: 0 0 20px #3c1f8a;
 }
 
 
 .Integrantes {
-  background-color: #8aecdf;
+  font-size: 20px;
+
   border-radius: 8px;
   text-align: center;
   transition: all 0.3s ease;
   cursor: pointer;
   transition: all 0.3s ease;
   cursor: pointer;
+
+  background: linear-gradient(180deg,#cd3df8, #9f24cf);
+  border-bottom: 1px solid #ca33f8;
+  box-shadow: 0 0 20px #8522a3;
 }
+
 .Integrantes.hover{
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
@@ -113,9 +118,13 @@ main {
 
 
 .Herramientas {
-  background-color: #6dccd8;
+
   text-align: center;
   border-radius: 8px;
+
+  background: linear-gradient(180deg,#f83dc5, #f12e89);
+  border-bottom: 1px solid #cc368e;
+  box-shadow: 0 0 20px #c22698;
 }
 
 .container-card {
@@ -123,6 +132,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+
 }
 
 
@@ -153,7 +163,7 @@ main {
 
   width: 100px;
   height: 100px;
-  margin: 15px auto;
+  margin: 20px auto;
   text-align: left;
 }
 
@@ -163,19 +173,19 @@ main {
 }
 
 .card .contenido-card h3 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #000000;
 }
 
 .card .contenido-card p {
   color: #000000;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
 .Objetivos p{
   color: #000000;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -189,7 +199,11 @@ main {
 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #6BB9F0;
+
+  background: linear-gradient(180deg,#f83d67, #f12e89);
+  border-bottom: 1px solid #cc368e;
+  box-shadow: 0 0 20px #c22698;
+
 }
 
 .footer-content {
