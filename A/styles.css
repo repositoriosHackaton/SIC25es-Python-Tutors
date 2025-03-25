@@ -7,7 +7,14 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  background: #fff;
+
+  background: linear-gradient(180deg, 
+  #8ecae6, 
+  #219ebc,
+  #023047,
+  #ffb703,
+  #fb8500);
+
   padding-bottom: 50px; /* Agregado para asegurar que no se superpongan los elementos */
   cursor: url("cursor.png"), auto;
 }
@@ -27,9 +34,7 @@ ul.topnav {
   border-width: 1px;
   border-style: solid;
 
-  background: linear-gradient(180deg, 
-  #3dc5f8, 
-  rgba(0, 180, 255, 0.6));
+  background: black;
 }
 
 ul.topnav li {
@@ -68,9 +73,8 @@ main {
   text-align: center;
   padding: 20px;
   margin: 20px 0;
-  background: linear-gradient(180deg, #3d68f8, #003cff);
-  border-bottom: 1px solid #839df5;
-  box-shadow: 0 0 20px #213a8b;
+  background: white;
+  box-shadow: 0 0 20px #304ba5;
 }
 
 .botsito{
@@ -85,13 +89,15 @@ main {
 .Objetivos {
   font-size: 20px;
   border-radius: 8px;
-  color: black;
+  color: white;
   text-align: center;
   padding: 20px;
   margin: 20px 0;
-  background: linear-gradient(180deg,#703df8, #470aec);
-  border-bottom: 1px solid #987aeb;
-  box-shadow: 0 0 20px #3c1f8a;
+  background: black;
+  box-shadow: 0 0 20px #022536;
+}
+.ObPrin p, .ObEs p {
+  color: white !important;
 }
 
 
@@ -105,9 +111,8 @@ main {
   transition: all 0.3s ease;
   cursor: pointer;
 
-  background: linear-gradient(180deg,#cd3df8, #9f24cf);
-  border-bottom: 1px solid #ca33f8;
-  box-shadow: 0 0 20px #8522a3;
+  background: white;
+  box-shadow: 0 0 20px #d19705;
 }
 
 .Integrantes.hover{
@@ -122,9 +127,7 @@ main {
   text-align: center;
   border-radius: 8px;
 
-  background: linear-gradient(180deg,#f83dc5, #f12e89);
-  border-bottom: 1px solid #cc368e;
-  box-shadow: 0 0 20px #c22698;
+  background: black;
 }
 
 .container-card {
@@ -200,9 +203,8 @@ main {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-  background: linear-gradient(180deg,#f83d67, #f12e89);
-  border-bottom: 1px solid #cc368e;
-  box-shadow: 0 0 20px #c22698;
+  background: white;
+  box-shadow: 0 0 20px #da3012;
 
 }
 
