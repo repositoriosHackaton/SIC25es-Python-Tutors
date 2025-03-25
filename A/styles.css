@@ -7,8 +7,9 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  background: linear-gradient(#8ecae6, #219ebc);
+  background: linear-gradient(#d8fcff, #0099ff);
   padding-bottom: 50px; /* Agregado para asegurar que no se superpongan los elementos */
+  cursor: url("cursor.png"), auto;
 }
 
 ul.topnav {
@@ -16,16 +17,19 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #023047;
   position: sticky;
   top: 0;
   z-index: 1000;
   display: flex;
   justify-content: center;
   border-radius: 0px 0px 15px 15px;
-  border-color: #000000;
-  border-width: 2px;
+  border-color: #fff;
+  border-width: 1px;
   border-style: solid;
+
+  background: linear-gradient(180deg, 
+  rgba(135, 206, 235, 0.8), 
+  rgba(0, 180, 255, 0.6));
 }
 
 ul.topnav li {
@@ -43,7 +47,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover:not(.active) {
-  background-color: #151515;
+  background-color: #b9e7eb;
 }
 
 ul.topnav li a.active {
@@ -58,13 +62,14 @@ main {
 
 
 .Cabecera {
-  background-color: #ffb703;
   border-radius: 8px;
-  color: white;
+  color: black;
   text-align: center;
   padding: 20px;
   margin: 20px 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, rgba(0, 180, 255, 0.2), rgba(0, 100, 255, 0.4));
+  border-bottom: 1px solid #00FFFF;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
 }
 
 .botsito{
@@ -77,14 +82,22 @@ main {
 }
 
 .Objetivos {
-  background-color: #fb8500;
-  text-align: center;
   border-radius: 8px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  background: linear-gradient(90deg, 
+  #00BFFF,  
+  #83e9e9);
+  border-bottom: 1px solid #00FFFF;
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+
 }
 
 
 .Integrantes {
-  background-color: rgb(121, 245, 204);
+  background-color: #8aecdf;
   border-radius: 8px;
   text-align: center;
   transition: all 0.3s ease;
@@ -167,20 +180,16 @@ main {
 }
 
 /* Estilos para el footer */
-footer {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  margin-top: 40px;
-}
+
 
 .footer-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  border: 2px solid #e0e0e0;
+
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  background-color: #6BB9F0;
 }
 
 .footer-content {
@@ -201,7 +210,7 @@ footer {
 }
 
 .footer-email {
-  color: #007bff;
+  color: #1c2d3d;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
