@@ -1,0 +1,95 @@
+{
+    "criterios": {
+        "batería": {
+            "descripcion": "Duración de la batería y capacidad en mAh",
+            "columna": "Battery Capacity (mAh)",
+            "importancia": 9
+        },
+        "cámara": {
+            "descripcion": "Calidad de la cámara trasera en MP",
+            "columna": "Back Camera (MP)",
+            "importancia": 8
+        },
+        "cámara frontal": {
+            "descripcion": "Calidad de la cámara frontal en MP",
+            "columna": "Front Camera (MP)",
+            "importancia": 7
+        },
+        "precio": {
+            "descripcion": "Precio de lanzamiento en USD",
+            "columna": "Launched Price (USA)",
+            "importancia": 6
+        },
+        "RAM": {
+            "descripcion": "Cantidad de memoria RAM en GB",
+            "columna": "RAM (GB)",
+            "importancia": 8
+        },
+        "procesador": {
+            "descripcion": "Potencia del procesador (cantidad de núcleos)",
+            "columna": "cores",
+            "importancia": 8
+        },
+        "frecuencia CPU": {
+            "descripcion": "Velocidad del procesador en MHz",
+            "columna": "clock",
+            "importancia": 7
+        },
+        "rendimiento general": {
+            "descripcion": "Puntaje CPU general",
+            "columna": "cpuScore",
+            "importancia": 9
+        },
+        "rendimiento gráfico": {
+            "descripcion": "Puntaje GPU, ideal para gaming",
+            "columna": "gpuScore",
+            "importancia": 9
+        },
+        "rendimiento IA": {
+            "descripcion": "Puntaje NPU, importante para IA y procesamiento avanzado",
+            "columna": "npuScore",
+            "importancia": 7
+        },
+        "pantalla": {
+            "descripcion": "Tamaño de la pantalla en pulgadas",
+            "columna": "Screen Size (inches)",
+            "importancia": 6
+        },
+        "peso": {
+            "descripcion": "Peso del dispositivo en gramos",
+            "columna": "Mobile Weight (g)",
+            "importancia": 5
+        },
+        "gaming": {
+            "descripcion": "Relevante para videojuegos, basado en GPU y CPU",
+            "columna": ["gpuScore", "cpuScore"],
+            "importancia": 10
+        },
+        "TikTok": {
+            "descripcion": "Ideal para redes sociales, prioriza cámara frontal y pantalla",
+            "columna": ["Front Camera (MP)", "Screen Size (inches)"],
+            "importancia": 8
+        },
+        "videos": {
+            "descripcion": "Grabación de video, prioriza cámara trasera y pantalla",
+            "columna": ["Back Camera (MP)", "Screen Size (inches)"],
+            "importancia": 8
+        },
+        "fotografía profesional": {
+            "descripcion": "Para fotógrafos, prioriza cámaras y procesamiento",
+            "columna": ["Back Camera (MP)", "cpuScore"],
+            "importancia": 9
+        },
+        "barato": {
+            "descripcion": "Busca el celular más económico",
+            "columna": "Launched Price (USA)",
+            "importancia": 10,
+            "ascendente": true
+        },
+        "premium": {
+            "descripcion": "Celulares de gama alta con mejor rendimiento general",
+            "columna": ["cpuScore", "gpuScore", "RAM (GB)"],
+            "importancia": 10
+        }
+    }
+}
