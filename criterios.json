@@ -60,12 +60,12 @@
             "columna": "Mobile Weight (g)",
             "importancia": 5
         },
-        "gaming": {
+        "jugar": {
             "descripcion": "Relevante para videojuegos, basado en GPU y CPU",
             "columna": ["gpuScore", "cpuScore"],
             "importancia": 10
         },
-        "TikTok": {
+        "grabar": {
             "descripcion": "Ideal para redes sociales, prioriza cámara frontal y pantalla",
             "columna": ["Front Camera (MP)", "Screen Size (inches)"],
             "importancia": 8
