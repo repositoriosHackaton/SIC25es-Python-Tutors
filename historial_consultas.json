@@ -1,0 +1,52 @@
+[
+    {
+        "consulta": "quiero un celular para gaming",
+        "criterios": ["gaming", "rendimiento gráfico"],
+        "resultados": [
+            {
+                "Company Name": "Samsung",
+                "Model Name": "Galaxy S21",
+                "Mobile Weight (g)": 169.0,
+                "RAM (GB)": 8,
+                "Front Camera (MP)": 10.0,
+                "Back Camera (MP)": 64.0,
+                "Processor": "Snapdragon 888",
+                "Battery Capacity (mAh)": 4000,
+                "Screen Size (inches)": 6.2,
+                "Launched Price (USA)": 799.0,
+                "Launched Year": 2021,
+                "cores": 8,
+                "clock": 2840.0,
+                "cpuScore": 950.0,
+                "gpuScore": 2200.0,
+                "npuScore": 1500.0
+            }
+        ],
+        "estatus": "positivo"
+    },
+    {
+        "consulta": "quiero un celular barato",
+        "criterios": ["precio", "batería"],
+        "resultados": [
+            {
+                "Company Name": "Xiaomi",
+                "Model Name": "Redmi Note 10",
+                "Mobile Weight (g)": 178.8,
+                "RAM (GB)": 4,
+                "Front Camera (MP)": 13.0,
+                "Back Camera (MP)": 48.0,
+                "Processor": "Snapdragon 678",
+                "Battery Capacity (mAh)": 5000,
+                "Screen Size (inches)": 6.43,
+                "Launched Price (USA)": 199.0,
+                "Launched Year": 2021,
+                "cores": 8,
+                "clock": 2200.0,
+                "cpuScore": 600.0,
+                "gpuScore": 1200.0,
+                "npuScore": 800.0
+            }
+        ],
+        "estatus": "negativo"
+    }
+]
