@@ -1,7 +1,10 @@
 [
     {
         "consulta": "quiero un celular para gaming",
-        "criterios": ["gaming", "rendimiento gráfico"],
+        "criterios": [
+            "gaming",
+            "rendimiento gráfico"
+        ],
         "resultados": [
             {
                 "Company Name": "Samsung",
@@ -26,7 +29,10 @@
     },
     {
         "consulta": "quiero un celular barato",
-        "criterios": ["precio", "batería"],
+        "criterios": [
+            "precio",
+            "batería"
+        ],
         "resultados": [
             {
                 "Company Name": "Xiaomi",
@@ -48,5 +54,390 @@
             }
         ],
         "estatus": "negativo"
+    },
+    {
+        "consulta": "Quiero un Samsung para jugar",
+        "criterios": [
+            "gaming",
+            "rendimiento gráfico"
+        ],
+        "resultados": [
+            {
+                "Company Name": "Apple",
+                "Model Name": "iphone 13 mini 128gb",
+                "Mobile Weight (g)": 140.0,
+                "RAM (GB)": 4,
+                "Front Camera (MP)": 12.0,
+                "Back Camera (MP)": 12.0,
+                "Processor": "Apple A15 Bionic",
+                "Battery Capacity (mAh)": 2438,
+                "Screen Size (inches)": 5.4,
+                "Launched Price (USA)": 699.0,
+                "Launched Year": 2021,
+                "cores": 6.0,
+                "clock": 3230.0,
+                "cpuScore": 935.0,
+                "gpuScore": 2273.0,
+                "npuScore": 2676.0
+            },
+            {
+                "Company Name": "Apple",
+                "Model Name": "iphone 13 mini 256gb",
+                "Mobile Weight (g)": 140.0,
+                "RAM (GB)": 4,
+                "Front Camera (MP)": 12.0,
+                "Back Camera (MP)": 12.0,
+                "Processor": "Apple A15 Bionic",
+                "Battery Capacity (mAh)": 2438,
+                "Screen Size (inches)": 5.4,
+                "Launched Price (USA)": 799.0,
+                "Launched Year": 2021,
+                "cores": 6.0,
+                "clock": 3230.0,
+                "cpuScore": 935.0,
+                "gpuScore": 2273.0,
+                "npuScore": 2676.0
+            },
+            {
+                "Company Name": "Apple",
+                "Model Name": "iphone 13 mini 512gb",
+                "Mobile Weight (g)": 140.0,
+                "RAM (GB)": 4,
+                "Front Camera (MP)": 12.0,
+                "Back Camera (MP)": 12.0,
+                "Processor": "Apple A15 Bionic",
+                "Battery Capacity (mAh)": 2438,
+                "Screen Size (inches)": 5.4,
+                "Launched Price (USA)": 899.0,
+                "Launched Year": 2021,
+                "cores": 6.0,
+                "clock": 3230.0,
+                "cpuScore": 935.0,
+                "gpuScore": 2273.0,
+                "npuScore": 2676.0
+            }
+        ]
+    },
+    {
+        "consulta": "Un celular Samsung que sirva para tomar fotos",
+        "criterios": [
+            "precio",
+            "rendimiento gráfico",
+            "premium",
+            "procesador"
+        ],
+        "resultados": [
+            {
+                "Company Name": "Samsung",
+                "Model Name": "galaxy tab active 4 pro 128gb",
+                "Mobile Weight (g)": 674.0,
+                "RAM (GB)": 6,
+                "Front Camera (MP)": 8.0,
+                "Back Camera (MP)": 13.0,
+                "Processor": "Snapdragon 778G",
+                "Battery Capacity (mAh)": 7600,
+                "Screen Size (inches)": 10.1,
+                "Launched Price (USA)": 649.0,
+                "Launched Year": 2022,
+                "cores": 8.0,
+                "clock": 1804.0,
+                "cpuScore": 370.0,
+                "gpuScore": 968.0,
+                "npuScore": 325.0
+            },
+            {
+                "Company Name": "Samsung",
+                "Model Name": "galaxy tab active 4 pro 128gb",
+                "Mobile Weight (g)": 674.0,
+                "RAM (GB)": 6,
+                "Front Camera (MP)": 8.0,
+                "Back Camera (MP)": 13.0,
+                "Processor": "Snapdragon 778G",
+                "Battery Capacity (mAh)": 7600,
+                "Screen Size (inches)": 10.1,
+                "Launched Price (USA)": 649.0,
+                "Launched Year": 2022,
+                "cores": 8.0,
+                "clock": 1804.0,
+                "cpuScore": 357.0,
+                "gpuScore": 886.0,
+                "npuScore": 809.0
+            },
+            {
+                "Company Name": "Samsung",
+                "Model Name": "galaxy tab active 4 pro 128gb",
+                "Mobile Weight (g)": 674.0,
+                "RAM (GB)": 6,
+                "Front Camera (MP)": 8.0,
+                "Back Camera (MP)": 13.0,
+                "Processor": "Snapdragon 778G",
+                "Battery Capacity (mAh)": 7600,
+                "Screen Size (inches)": 10.1,
+                "Launched Price (USA)": 649.0,
+                "Launched Year": 2022,
+                "cores": 8.0,
+                "clock": 1804.0,
+                "cpuScore": 347.0,
+                "gpuScore": 857.0,
+                "npuScore": 708.0
+            }
+        ],
+        "estatus": "positivo"
+    },
+    {
+        "consulta": "Un celular para jugar",
+        "criterios": [
+            "precio"
+        ],
+        "resultados": [
+            {
+                "Company Name": "Huawei",
+                "Model Name": "mate xs 2",
+                "Mobile Weight (g)": 255.0,
+                "RAM (GB)": 8,
+                "Front Camera (MP)": 10.7,
+                "Back Camera (MP)": 50.0,
+                "Processor": "Snapdragon 888",
+                "Battery Capacity (mAh)": 4600,
+                "Screen Size (inches)": 7.8,
+                "Launched Price (USA)": 2499.0,
+                "Launched Year": 2022,
+                "cores": 8.0,
+                "clock": 1804.0,
+                "cpuScore": 384.0,
+                "gpuScore": 1834.0,
+                "npuScore": 1615.0
+            },
+            {
+                "Company Name": "Huawei",
+                "Model Name": "mate xs 2",
+                "Mobile Weight (g)": 255.0,
+                "RAM (GB)": 8,
+                "Front Camera (MP)": 10.7,
+                "Back Camera (MP)": 50.0,
+                "Processor": "Snapdragon 888",
+                "Battery Capacity (mAh)": 4600,
+                "Screen Size (inches)": 7.8,
+                "Launched Price (USA)": 2499.0,
+                "Launched Year": 2022,
+                "cores": 8.0,
+                "clock": 1804.0,
+                "cpuScore": 389.0,
+                "gpuScore": 1589.0,
+                "npuScore": 776.0
+            },
+            {
+                "Company Name": "Huawei",
+                "Model Name": "mate xs 2",
+                "Mobile Weight (g)": 255.0,
+                "RAM (GB)": 8,
+                "Front Camera (MP)": 10.7,
+                "Back Camera (MP)": 50.0,
+                "Processor": "Snapdragon 888",
+                "Battery Capacity (mAh)": 4600,
+                "Screen Size (inches)": 7.8,
+                "Launched Price (USA)": 2499.0,
+                "Launched Year": 2022,
+                "cores": 8.0,
+                "clock": 1804.0,
+                "cpuScore": 386.0,
+                "gpuScore": 1668.0,
+                "npuScore": 1536.0
+            }
+        ]
+    },
+    {
+        "consulta": "quiero un celular con buena cámara",
+        "criterios": [
+            "cámara",
+            "rendimiento gráfico",
+            "premium"
+        ],
+        "resultados": [
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 256gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1199.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 351.0,
+                "gpuScore": 1348.0,
+                "npuScore": 869.0
+            },
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 512gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1299.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 351.0,
+                "gpuScore": 1348.0,
+                "npuScore": 869.0
+            },
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 256gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1199.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 273.0,
+                "gpuScore": 792.0,
+                "npuScore": 999.0
+            }
+        ],
+        "estatus": "positivo"
+    },
+    {
+        "consulta": "celulares con buena cámara",
+        "criterios": [
+            "cámara",
+            "rendimiento gráfico",
+            "premium",
+            "precio"
+        ],
+        "resultados": [
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 512gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1299.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 351.0,
+                "gpuScore": 1348.0,
+                "npuScore": 869.0
+            },
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 256gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1199.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 351.0,
+                "gpuScore": 1348.0,
+                "npuScore": 869.0
+            },
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 512gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1299.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 273.0,
+                "gpuScore": 792.0,
+                "npuScore": 999.0
+            }
+        ]
+    },
+    {
+        "consulta": "un celular con buena cámara",
+        "criterios": [
+            "cámara",
+            "rendimiento gráfico"
+        ],
+        "resultados": [
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 256gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1199.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 351.0,
+                "gpuScore": 1348.0,
+                "npuScore": 869.0
+            },
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 512gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1299.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 351.0,
+                "gpuScore": 1348.0,
+                "npuScore": 869.0
+            },
+            {
+                "Company Name": "Vivo",
+                "Model Name": "x200 pro 256gb",
+                "Mobile Weight (g)": 223.0,
+                "RAM (GB)": 16,
+                "Front Camera (MP)": 32.0,
+                "Back Camera (MP)": 200.0,
+                "Processor": "Dimensity 9400",
+                "Battery Capacity (mAh)": 6000,
+                "Screen Size (inches)": 6.78,
+                "Launched Price (USA)": 1199.0,
+                "Launched Year": 2024,
+                "cores": 8.0,
+                "clock": 2000.0,
+                "cpuScore": 273.0,
+                "gpuScore": 792.0,
+                "npuScore": 999.0
+            }
+        ],
+        "estatus": "positivo"
     }
 ]
