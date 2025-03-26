@@ -1,6 +1,7 @@
 
 body {
-  font-family: 'Poppins black';
+    
+  font-family: "Poppins", "Poppins Extrabolt800";
   display: flex;
   flex-direction: column;
   justify-content: center;
